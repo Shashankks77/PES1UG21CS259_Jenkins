@@ -9,7 +9,7 @@ pipeline {
           }
       stage('Test') {
           steps {
-                 './output'
+                 kss './output'
             }
         }
       stage('Deploy') {
